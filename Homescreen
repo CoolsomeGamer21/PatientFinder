@@ -1,0 +1,311 @@
+position: absolute;
+width: 1512px;
+height: 928px;
+left: 0px;
+top: 53px;
+
+background: #FFBCA6;
+
+
+/* image 1 */
+
+
+position: absolute;
+width: 1543px;
+height: 53px;
+left: -31px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* image 2 */
+
+
+position: absolute;
+width: 472px;
+height: 53px;
+left: 1040px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* Welcome to PatientFinder The Website for your overall-health */
+
+
+position: absolute;
+width: 1284px;
+height: 149px;
+left: 114px;
+top: 153px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 116px;
+
+color: #000000;
+
+
+
+/* Rectangle 2 */
+
+
+position: absolute;
+width: 1512px;
+height: 105px;
+left: 0px;
+top: 48px;
+
+background: #2ECFCA;
+
+
+/* Rectangle 3 */
+
+
+position: absolute;
+width: 136px;
+height: 50px;
+left: 1351px;
+top: 68px;
+
+background: #4FED18;
+
+
+/* Rectangle 4 */
+
+
+position: absolute;
+width: 136px;
+height: 50px;
+left: 1195px;
+top: 68px;
+
+background: #2AE6C4;
+
+
+/* Rectangle 5 */
+
+
+position: absolute;
+width: 136px;
+height: 50px;
+left: 1011px;
+top: 68px;
+
+background: #18EDED;
+
+
+/* Rectangle 6 */
+
+
+position: absolute;
+width: 222px;
+height: 50px;
+left: 737px;
+top: 68px;
+
+background: rgba(24, 109, 237, 0.31);
+
+
+/* Rectangle 7 */
+
+
+position: absolute;
+width: 136px;
+height: 50px;
+left: 544px;
+top: 68px;
+
+background: #EB9F9F;
+
+
+/* Login */
+
+
+position: absolute;
+width: 138px;
+height: 50px;
+left: 1374px;
+top: 68px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #000000;
+
+
+
+/* Sign Up */
+
+
+position: absolute;
+width: 138px;
+height: 50px;
+left: 1195px;
+top: 68px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #000000;
+
+
+
+/* Exercise */
+
+
+position: absolute;
+width: 138px;
+height: 50px;
+left: 1016px;
+top: 75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+
+
+/* Appointments */
+
+
+position: absolute;
+width: 215px;
+height: 50px;
+left: 744px;
+top: 72px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+
+
+/* Home */
+
+
+position: absolute;
+width: 138px;
+height: 50px;
+left: 558px;
+top: 75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+
+
+/* Exercise with us: When you exercise by yourself or a group of friends not only you get to meet new people and got your exercise, your body will thank you, Guarenteed :) */
+
+
+position: absolute;
+width: 1482px;
+height: 154px;
+left: 15px;
+top: 456px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+
+color: #1368E8;
+
+
+
+/* Get appointments with us: Stop paying too much for your doctor, Here at PatientFinder, Our doctors will give give the best care as possible for a more affordable price, Yes Siree :) */
+
+
+position: absolute;
+width: 1482px;
+height: 154px;
+left: 15px;
+top: 302px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+
+color: #1E6E87;
+
+
+
+/* Access Medical Records from here Get your medical records from all of your doctor, from PatientFinder or not, track all of our medications, medical records and more here */
+
+
+position: absolute;
+width: 1482px;
+height: 154px;
+left: 16px;
+top: 610px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+
+color: #1EAEDC;
+
+
+
+/* Your Website/Data not Ours PatientFinder can’t see or sell your data, The only data we can receive is when you accept the prompt when you have a doctor appointment */
+
+
+position: absolute;
+width: 1482px;
+height: 154px;
+left: 15px;
+top: 754px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+
+color: #DC1E1E;
+
+
+
+/* Made With ❤ for RookieHacks II */
+
+
+position: absolute;
+width: 1374px;
+height: 44px;
+left: 558px;
+top: 943px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
