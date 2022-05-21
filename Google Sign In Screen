@@ -1,8 +1,226 @@
-/* Google Sign In Screen */
+</script>
+  <script nonce="7bFtXxddjPaCfsxhvYYsPw==" >
+    (()=>{self.global=self;var h=(e,o,t,s)=>{if(e)window.userStateXHR={readyState:4,status:200,responseText:e};else if(window.Fig){if(s||!window.INITIAL_OPTIONS.user_data){window.startUserStateXHR=()=>{};return}window.startUserStateXHR=function(i){var c;var n="/api/user/state",a=[];window.INITIAL_OPTIONS.org_id&&a.push("org_id="+window.INITIAL_OPTIONS.org_id),t&&a.push("omit_core_data=1"),i&&a.push("file_key="+i),a.length!==0&&(n+="?"+a.join("&")),window.userStateXHR=new XMLHttpRequest,window.userStateXHR.open("GET",n);let w=(c=window.INITIAL_OPTIONS.user_data)==null?void 0:c.id;w&&window.userStateXHR.setRequestHeader("X-Figma-User-ID",w),window.userStateXHR.send();var l=window.performance?window.performance.now():-1;window.userStateXHR.addEventListener("load",function(){window.userStateXHRDuration=window.performance?window.performance.now()-l:-1},!1),window.sessionStateXHR=new XMLHttpRequest,window.sessionStateXHR.open("GET","/api/session/state"),w&&window.sessionStateXHR.setRequestHeader("X-Figma-User-ID",w),window.sessionStateXHR.send()};let d=location.pathname==="/preload-editor"||location.pathname==="/file/new",r=window.INITIAL_OPTIONS.editing_file&&window.INITIAL_OPTIONS.editing_file.key;o?window.startUserStateXHR(r):d||window.startUserStateXHR()}};function u(e){if((e==null?void 0:e.role)!=="prototype")return!1;let o=new URLSearchParams(window.location.search);if(o.get("force-fullview")==="off")return!1;let t=window.INITIAL_OPTIONS.feature_flags;return!!(t.viewer_cpp_scenegraph||(e==null?void 0:e.loadPrototypeLibForICs)&&t.viewer_cpp_scenegraph_ics_only||o.get("force-fullview")==="on")}var m=e=>{var d;let o=(d=window.INITIAL_OPTIONS.user_data)==null?void 0:d.id,t=window.INITIAL_OPTIONS.tracking_session_id,s=window.INITIAL_OPTIONS.release_manifest_git_commit;window.mpGlobal={version:60,sock:null,msgs:[],perfMetrics:[],url({fileKey:r,role:i,oauthToken:n,nodeIds:a}){let w=null;e&&r===e.fileKey&&e.targetFileVersion&&(w=e.targetFileVersion);let l="";(i==="editor"||i==="viewerWithCpp")&&a&&(l=`&scenegraph-queries-initial-nodes=${a}`);let c=window.INITIAL_OPTIONS.feature_flags,g=i==="editor"&&c.multiplayer_zstd_compression||i==="viewerWithCpp"&&c.multiplayer_zstd_compression||u(e),I=1;try{let f=JSON.parse(sessionStorage.getItem("reload_times")||"[0]"),S=f[f.length-1];I=Date.now()-S<5e3?1:0}catch(f){}return`${location.protocol.replace("http","ws")}//${location.host}/api/multiplayer/${r}?role=${i}&tracking_session_id=${t}&version=${this.version}&recentReload=${I}`+(n?"&oauth_token="+n:"")+l+(g?"&compression=zstd":"")+(o?`&user-id=${o}`:"")+(w?`&target-file-version=${w}`:"")+(s?`&client_release=${s}`:"")},preconnect(r){if(this.sock){if(r===this.sock.url&&this.sock.readyState!==WebSocket.CLOSED)return;try{this.sock.close()}catch(i){}}this.sock=new WebSocket(r),this.sock.binaryType="arraybuffer",this.sock.onopen=i=>{this.perfMetrics.push({key:"mp-ws-onopen",ts:performance.now(),nBytes:void 0})},this.sock.onmessage=i=>{let n=new Uint8Array(i.data);this.msgs.push(n),this.perfMetrics.push({key:"mp-ws-onmessage",ts:performance.now(),nBytes:n.length*n.BYTES_PER_ELEMENT})},this.msgs=[],this.perfMetrics=[]}},e&&mpGlobal.preconnect(mpGlobal.url(e))},p=e=>{let o=()=>{let s=document.createElement("script");return s.type="text/javascript",s.async=!0,s.setAttribute("nonce",window.INITIAL_OPTIONS.csp_nonce),s},t=new Promise((s,d)=>{let r=o();r.onload=s,r.src=e,document.head.appendChild(r)});return t.catch(s=>console.error(`Fetching ${e} failed: ${s}`)),t};(()=>{var i,n;let{file_minimal_user_state:e,mock_user_state_for_tests_json:o,multiplayer_preconnect_options:t,omit_core_data:s,omit_user_state:d,preload_fullscreen_urls:r}=window.EARLY_ARGS||{};if(window.INITIAL_OPTIONS||(window.INITIAL_OPTIONS={}),h(o,e,s,d),m(t),!r&&!((i=window.INITIAL_OPTIONS.feature_flags)!=null&&i.fullscreen_early_link_prefetch)&&!/FigmaMobile-Android/.test(navigator.userAgent)&&((n=window.INITIAL_OPTIONS.feature_flags)==null?void 0:n.fullscreen_early_prefetch)&&((t==null?void 0:t.role)==="editor"||(t==null?void 0:t.role)==="viewerWithCpp"||u(t))){let a=fetch(Fig.fullscreenURLs["compiled_wasm.wasm"]);a.catch(l=>console.error(`Fetching compiled_wasm.wasm failed: ${l}`));let w=p(Fig.fullscreenURLs["compiled_wasm.js"]);window.FULLSCREEN_PRELOADS={wasm:a,js:w}}})();})();
+
+//# sourceMappingURL=https://admin.figma.com/admin/esbuild-artifacts/a94b1eb220293e709be3bff5a49232cb70618b07/js/early.min.js.map
+  </script>
 
 
-position: relative;
-width: 1512px;
-height: 982px;
+    <meta name="google" content="notranslate" />
+    <meta name="slack-app-id" content="A01N2QYSA81">
 
-background: #FFFFFF;
+    <title>Figma</title>
+
+    <style type="text/css">
+  #filebrowser-loading-page {
+    opacity: 1;
+    -webkit-transition: opacity .2s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Make sure the loading page is flush with the edges of the page so
+       our layout isnt affected by browser default margins/paddings */
+    position: absolute;
+    top: 48px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-bg, var(--fallback-color-bg, white));
+  }
+
+  #loading-content-pane {
+    opacity: 1;
+    -webkit-transition: opacity .4s ease-in-out;
+  }
+
+  #filebrowser-loading-page.fadeOut, #loading-content-pane.fadeOut {
+    opacity: 0;
+  }
+
+  #filebrowser-loading-page.hidden {
+    display: none;
+    opacity: 0;
+  }
+
+  .filebrowser-loading-page .file-grid.create-file-grid {
+    margin: 24px 0px;
+    grid-gap: 32px;
+    background-color: var(--color-bg, white);
+  }
+
+  /* HAX: see loading-page-container in loading_spinner.tsx */
+  #loading-page-container .create-file-grid {
+    display: none;
+    background-color: var(--color-bg, white);
+  }
+  #loading-page-container .sort-dropdown {
+    margin-top: 0px;
+  }
+
+ /*
+  * HAX: The sidebar is cloned and used independently outside of this
+  * page so any styles like `.filebrowser-loading-page .thing` applied
+  * to sidebar sub-elements also need a selector like
+  * `.filebrowser-loading-sidebar .thing` so that they work outside of
+  * this page too.
+  */
+  .filebrowser-loading-page .row,
+  .filebrowser-loading-sidebar .row {
+    background-color: var(--color-bg-secondary, #f0f0f0);
+    border-radius: 3px;
+    height: 16px;
+  }
+
+  .filebrowser-loading-page .circle,
+  .filebrowser-loading-sidebar .circle {
+    border-radius: 3px;
+    background-color: var(--color-bg-secondary, #f0f0f0);
+    width: 16px;
+    height: 16px;
+  }
+
+  .filebrowser-loading-page .row .circle,
+  .filebrowser-loading-sidebar .row .circle {
+    position: relative;
+    top: -1px;
+    left: -35px;
+  }
+
+  .filebrowser-loading-sidebar {
+    flex: 0 0 240px;
+    background-color: var(--color-bg, white);
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filebrowser-loading-page .navbar {
+    height: 48px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--color-bg-toolbar, #2C2C2C);
+    z-index: 1;
+  }
+
+  .filebrowser-loading-sidebar .row {
+    width: 85px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    margin-left: 48px;
+  }
+
+  .filebrowser-loading-sidebar .row .circle {
+    position: relative;
+    top: -1px;
+    left: -35px;
+  }
+
+  .filebrowser-loading-page .divider,
+  .filebrowser-loading-sidebar .divider {
+    height: 1px;
+    background-color: var(--color-border, rgba(0, 0, 0, 0.1));
+    margin-top: 8px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .filebrowser-loading-sidebar .row:nth-child(7) { width: 40px; }
+  .filebrowser-loading-sidebar .row:nth-child(8) { width: 58px; }
+
+  .filebrowser-loading-sidebar .row:nth-last-child(1) { opacity: 0.4; width: 65px; }
+  .filebrowser-loading-sidebar .row:nth-last-child(2) { opacity: 0.4; width: 65px; }
+  .filebrowser-loading-sidebar .row:nth-last-child(3) { opacity: 0.8; width: 46px; }
+
+  .filebrowser-loading-page .page {
+    flex: 1 1;
+    box-sizing: border-box;
+    border-left: 1px var(--color-border, #e5e5e5) solid;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filebrowser-loading-page .toolbar {
+    border-bottom: 1px var(--color-border, #e5e5e5) solid;
+    height: 48px;
+  }
+
+  .filebrowser-loading-page .toolbar .item {
+    background-color: var(--color-bg-secondary, #f0f0f0);
+    border-radius: 3px;
+    width: 85px;
+    height: 16px;
+    margin-left: 32px;
+    margin-top: 16px;
+  }
+
+  .filebrowser-loading-page .columns {
+    flex: 1 1;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 32px;
+  }
+
+  @media (max-width: 849px) {
+    .filebrowser-loading-page .columns {
+      flex-direction: column;
+    }
+
+    .filebrowser-loading-page .right-column {
+      padding-left: 32px;
+    }
+
+    .filebrowser-loading-page .public-header + .columns {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .filebrowser-loading-page .content {
+    flex: 1 1;
+  }
+
+  .filebrowser-loading-page .sort-dropdown {
+    background-color: var(--color-bg-secondary, #f0f0f0);
+    border-radius: 3px;
+    width: 72px;
+    height: 16px;
+    margin: 24px 32px;
+  }
+
+  .filebrowser-loading-page .create-file-tile {
+    background-color: var(--color-bg-secondary, white);
+    border: 1px solid var(--color-border, #e5e5e5);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    height: 72px;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 832px) {
+    .filebrowser-loading-page .create-file-tile {
+      height: 48px;
+    }
+  }
+
+  @media (max-width: 645px) {
+    .filebrowser-loading-page .create-file-tile, .filebrowser-loading-page .sort-dropdown {
+      display: none;
+    }
+  }
+
+  .filebrowser-loading-page .create-file-tile .icon {
+    background-color: var(--color-bg-secondary, #f0f0f0);
+    border-radius: 2px;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 24px;
+    width: 24px;
+  }
+
+  .filebrowser-loading-page .create-file-tile .label {
+    background-color: var(--color-bg-secondary, #f0f0f0);
+    width: 132px;
+    height: 16px;
+    border-radius: 3px;
